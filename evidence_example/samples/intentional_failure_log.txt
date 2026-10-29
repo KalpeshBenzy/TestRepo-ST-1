@@ -1,0 +1,7 @@
+EXAMPLE - OFFLINE INTENTIONAL FAILURE, 29 October 2026
+INFO | START evidence_example/test_intentional_failure.py::test_intentional_failure_evidence
+INFO | Deliberately failing to demonstrate error evidence
+ERROR | AssertionError: EXPECTED DEMO FAILURE: show screenshot and trace
+ERROR | Screenshot: artifacts/screenshots/test_intentional_failure_evidence_<unique>.png
+ERROR | Trace: artifacts/traces/test_intentional_failure_evidence_<unique>.zip
+INFO | END evidence_example/test_intentional_failure.py::test_intentional_failure_evidence status=FAILED

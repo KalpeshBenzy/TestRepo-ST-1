@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+!.env.example
+auth/*.json
+logs/*
+!logs/.gitkeep
+artifacts/screenshots/*
+!artifacts/screenshots/.gitkeep
+artifacts/traces/*
+!artifacts/traces/.gitkeep
+README.md
+TEST_RESULTS.md
